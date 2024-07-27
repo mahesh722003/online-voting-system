@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mt-5">Vote for your favorite candidate</h2>
+        <form action="vote.php" method="POST" class="mt-3">
+            <div class="form-group">
+                <label for="candidate">Select Candidate:</label>
+                <select class="form-control" id="candidate" name="candidate">
+                    <option value="Candidate1">Candidate 1</option>
+                    <option value="Candidate2">Candidate 2</option>
+                    <option value="Candidate3">Candidate 3</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit Vote</button>
+        </form>
+    </div>
+</body>
+</html>
